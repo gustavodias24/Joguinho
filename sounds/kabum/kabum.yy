@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"kabum",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":4.3885713,
+  "name":"kabum",
+  "parent":{
+    "name":"inimigo1",
+    "path":"folders/Sprites/inimigo1.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"kabum.mp3",
+  "type":0,
+  "volume":1.0,
+}
