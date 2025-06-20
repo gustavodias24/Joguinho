@@ -17,6 +17,7 @@ if image_index >= image_number - 1 and abrindo {
 if jogador{
 	if jogador.image_index >= image_number - 1 {
 		jogador.nascendo = false;
+		jogador.image_xscale =-1;
 		jogador = false;
 		fechando = true;
 	}
@@ -30,4 +31,5 @@ if fechando {
 		sprite_index = van;
 	}
 }
+
 

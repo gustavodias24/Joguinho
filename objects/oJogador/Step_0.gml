@@ -1,5 +1,7 @@
-move_x = 0;
-move_y = 0;
+var move_x = 0;
+var move_y = 0;
+
+show_debug_message("x: " + string(x) + "y: " + string(y) );
 
 if not nascendo{
 	if is_vivo{
@@ -33,8 +35,6 @@ if not nascendo{
 			show_debug_message(string(y) + string(x));
 			if new_y_pre >= 23 and new_y_pre < 380
 				y += new_y * bonus;
-		
-		
 	    
 		}
 
